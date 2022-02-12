@@ -1,0 +1,71 @@
+        @font-face {
+            font-family: Futura;
+            src: url('../FuturaFont/FuturaPTLight.otf'), url('../FuturaFont/FuturaPTCondMedium.otf'), url('../Futura Font/FuturaPTConndBold.otf')
+        }
+        
+        body {
+            font-family: Futura;
+        }
+        /*    HEADER     */
+        
+        .nav-contaniner {
+            padding: 0 !important;
+        }
+        
+        .nav-contaniner {
+            display: flex;
+            justify-content: space-around !important;
+        }
+        
+        .logo-header {
+            width: 6rem;
+            margin-left: 2%;
+        }
+        
+        .ancho-ul {
+            display: flex;
+            justify-content: center;
+            font-weight: medium;
+            font-size: 17px;
+        }
+        
+        .nav-link {
+            margin: 10px 30px;
+            color: #171717 !important;
+        }
+        
+        .icons {
+            width: 10%;
+            display: flex;
+            justify-content: space-around;
+            margin-right: 2%;
+        }
+        /* MAIN */
+        /* seccion 1 - carrusel */
+        
+        .carousel-caption {
+            width: 40%;
+            position: absolute;
+            top: 20%;
+            text-align: start !important;
+        }
+        
+        .carousel-caption>h5,
+        .carousel-caption>.p-caption,
+        .carousel-caption>.a-button {
+            color: #171717;
+        }
+        
+        .carousel-caption>.p-caption {
+            font-size: 50px;
+            font-weight: bold;
+            margin-bottom: .8em;
+        }
+        
+        .carousel-caption>.a-button {
+            font-size: 20px;
+            text-decoration: none;
+            padding: 20px 60px;
+            background-color: #5E2E56;
+            color: #FFFFFF;
+        }
